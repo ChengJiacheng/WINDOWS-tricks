@@ -10,5 +10,6 @@ set-executionpolicy remotesigned
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 scoop help
 scoop install kubectl
+$env:path ="$($env:path);."
 ```
 
